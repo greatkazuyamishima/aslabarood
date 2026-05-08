@@ -1,7 +1,6 @@
 import { Route, Routes } from 'react-router-dom'
-import Header from './components/Header.jsx'
 import Home from './pages/Home.jsx'
-import About from './pages/About.jsx'
+import CategoryPage from './pages/CategoryPage.jsx'
 import SideNavBar from './components/SideBar.jsx'
 
 function App() {
@@ -11,7 +10,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/:type" element={<CategoryPage />} />
       </Routes>
     </div>
   )

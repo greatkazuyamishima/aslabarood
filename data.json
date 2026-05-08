@@ -1,0 +1,643 @@
+[
+    {
+        "id": 1,
+        "name": "Glock 17",
+        "type": "Pistol",
+        "typeId": "pistol",
+        "shortDescription": "A lightweight and reliable Austrian semi-automatic pistol.",
+        "detailedDescription": "The Glock 17 is one of the most influential modern pistols ever designed. Developed by Austrian engineer Gaston Glock in the early 1980s, the firearm introduced a polymer-framed design that reduced weight while maintaining durability and reliability. Its striker-fired operating system and simple internal mechanism made maintenance easy and improved operational consistency. The pistol became highly popular among military organizations, law enforcement agencies, and civilian users worldwide due to its reliability, high magazine capacity, and ease of use.",
+        "year": 1982,
+        "country": "Austria",
+        "manufacturer": "Glock",
+        "caliber": "9×19mm",
+        "action": "Short recoil-operated",
+        "weightKg": 0.9,
+        "barrelLengthMm": 114,
+        "effectiveRangeM": 50,
+        "fireModes": [
+            "Semi-Automatic"
+        ],
+        "magazineCapacity": [
+            17,
+            19,
+            33
+        ],
+        "designedBy": "Gaston Glock",
+        "usedBy": [
+            "Military",
+            "Police",
+            "Civilian"
+        ],
+        "variants": [
+            "Glock 19",
+            "Glock 34"
+        ],
+        "image": "./src/assets/glock17.png"
+    },
+    {
+        "id": 2,
+        "name": "Colt M1911",
+        "type": "Pistol",
+        "typeId": "pistol",
+        "shortDescription": "A classic American semi-automatic pistol designed by John Browning.",
+        "detailedDescription": "The Colt M1911 is a legendary handgun that served as the standard sidearm of the United States Armed Forces for most of the 20th century. Designed by John Browning, the pistol is chambered in .45 ACP and is known for its stopping power, ergonomic grip angle, and dependable performance.",
+        "year": 1911,
+        "country": "United States",
+        "manufacturer": "Colt",
+        "caliber": ".45 ACP",
+        "action": "Short recoil-operated",
+        "weightKg": 1.1,
+        "barrelLengthMm": 127,
+        "effectiveRangeM": 50,
+        "fireModes": [
+            "Semi-Automatic"
+        ],
+        "magazineCapacity": [
+            7,
+            8
+        ],
+        "designedBy": "John Browning",
+        "usedBy": [
+            "Military",
+            "Civilian"
+        ],
+        "variants": [
+            "M1911A1",
+            "Commander"
+        ],
+        "image": "./src/assets/m1911.png"
+    },
+    {
+        "id": 3,
+        "name": "Beretta 92FS",
+        "type": "Pistol",
+        "typeId": "pistol",
+        "shortDescription": "An Italian military pistol known for accuracy and reliability.",
+        "detailedDescription": "The Beretta 92FS is a semi-automatic pistol developed in Italy and widely recognized for military and police use. It became famous after being adopted as the M9 service pistol by the United States military.",
+        "year": 1975,
+        "country": "Italy",
+        "manufacturer": "Beretta",
+        "caliber": "9×19mm",
+        "action": "Short recoil-operated",
+        "weightKg": 0.95,
+        "barrelLengthMm": 125,
+        "effectiveRangeM": 50,
+        "fireModes": [
+            "Semi-Automatic"
+        ],
+        "magazineCapacity": [
+            15,
+            17
+        ],
+        "designedBy": "Beretta",
+        "usedBy": [
+            "Military",
+            "Police"
+        ],
+        "variants": [
+            "M9",
+            "92A1"
+        ],
+        "image": "./src/assets/beretta.png"
+    },
+    {
+        "id": 4,
+        "name": "Desert Eagle",
+        "type": "Pistol",
+        "typeId": "pistol",
+        "shortDescription": "A large-caliber semi-automatic pistol known for power and size.",
+        "detailedDescription": "The Desert Eagle is a gas-operated semi-automatic pistol famous for chambering powerful cartridges such as .50 Action Express. Its large frame and cinematic appearances made it highly recognizable worldwide.",
+        "year": 1983,
+        "country": "Israel",
+        "manufacturer": "Magnum Research",
+        "caliber": ".50 AE",
+        "action": "Gas-operated",
+        "weightKg": 2.0,
+        "barrelLengthMm": 152,
+        "effectiveRangeM": 200,
+        "fireModes": [
+            "Semi-Automatic"
+        ],
+        "magazineCapacity": [
+            7
+        ],
+        "designedBy": "Magnum Research",
+        "usedBy": [
+            "Civilian"
+        ],
+        "variants": [
+            "Mark I",
+            "Mark XIX"
+        ],
+        "image": "./src/assets/deserteagle.png"
+    },
+    {
+        "id": 5,
+        "name": "Smith & Wesson Model 29",
+        "type": "Revolver",
+        "typeId": "revolver",
+        "shortDescription": "A powerful .44 Magnum revolver made famous in films.",
+        "detailedDescription": "The Smith & Wesson Model 29 is a double-action revolver chambered in .44 Magnum. It became iconic after appearances in the Dirty Harry movie series and remains popular among revolver enthusiasts.",
+        "year": 1955,
+        "country": "United States",
+        "manufacturer": "Smith & Wesson",
+        "caliber": ".44 Magnum",
+        "action": "Double-action revolver",
+        "weightKg": 1.4,
+        "barrelLengthMm": 165,
+        "effectiveRangeM": 50,
+        "fireModes": [
+            "Single Shot"
+        ],
+        "magazineCapacity": [
+            6
+        ],
+        "designedBy": "Smith & Wesson",
+        "usedBy": [
+            "Police",
+            "Civilian"
+        ],
+        "variants": [
+            "Model 629"
+        ],
+        "image": "./src/assets/model29.png"
+    },
+    {
+        "id": 6,
+        "name": "Colt Python",
+        "type": "Revolver",
+        "typeId": "revolver",
+        "shortDescription": "A premium revolver celebrated for craftsmanship.",
+        "detailedDescription": "The Colt Python is a high-end revolver known for exceptional trigger quality, accuracy, and polished construction. It is considered one of the finest production revolvers ever made.",
+        "year": 1955,
+        "country": "United States",
+        "manufacturer": "Colt",
+        "caliber": ".357 Magnum",
+        "action": "Double-action revolver",
+        "weightKg": 1.3,
+        "barrelLengthMm": 152,
+        "effectiveRangeM": 50,
+        "fireModes": [
+            "Single Shot"
+        ],
+        "magazineCapacity": [
+            6
+        ],
+        "designedBy": "Colt",
+        "usedBy": [
+            "Police",
+            "Civilian"
+        ],
+        "variants": [
+            "Python Elite"
+        ],
+        "image": "./src/assets/coltpython.png"
+    },
+    {
+        "id": 7,
+        "name": "Nagant M1895",
+        "type": "Revolver",
+        "typeId": "revolver",
+        "shortDescription": "A historic Russian military revolver.",
+        "detailedDescription": "The Nagant M1895 revolver became notable for its unusual gas-seal system. It served extensively in Russian and Soviet military forces during both World Wars.",
+        "year": 1895,
+        "country": "Russia",
+        "manufacturer": "Tula Arsenal",
+        "caliber": "7.62×38mmR",
+        "action": "Single-action / Double-action",
+        "weightKg": 0.8,
+        "barrelLengthMm": 114,
+        "effectiveRangeM": 50,
+        "fireModes": [
+            "Single Shot"
+        ],
+        "magazineCapacity": [
+            7
+        ],
+        "designedBy": "Léon Nagant",
+        "usedBy": [
+            "Military"
+        ],
+        "variants": [
+            "Suppressed Nagant"
+        ],
+        "image": "./src/assets/nagant1895.png"
+    },
+    {
+        "id": 8,
+        "name": "AK-47",
+        "type": "Assault Rifle",
+        "typeId": "ar",
+        "shortDescription": "A Soviet-designed assault rifle famous for durability.",
+        "detailedDescription": "The AK-47 is among the most recognized firearms ever produced. Designed by Mikhail Kalashnikov, it became famous for reliability under harsh battlefield conditions.",
+        "year": 1947,
+        "country": "Soviet Union",
+        "manufacturer": "Izhmash",
+        "caliber": "7.62×39mm",
+        "action": "Gas-operated, rotating bolt",
+        "weightKg": 4.3,
+        "barrelLengthMm": 415,
+        "effectiveRangeM": 350,
+        "fireModes": [
+            "Semi-Automatic",
+            "Automatic"
+        ],
+        "magazineCapacity": [
+            30,
+            40,
+            75
+        ],
+        "designedBy": "Mikhail Kalashnikov",
+        "usedBy": [
+            "Military"
+        ],
+        "variants": [
+            "AKM",
+            "AK-74"
+        ],
+        "image": "./src/assets/ak47.png"
+    },
+    {
+        "id": 9,
+        "name": "M16",
+        "type": "Assault Rifle",
+        "typeId": "ar",
+        "shortDescription": "A lightweight American military rifle.",
+        "detailedDescription": "The M16 introduced lightweight construction and high-velocity ammunition to military rifles. It became the standard rifle of the United States military during the Vietnam era.",
+        "year": 1964,
+        "country": "United States",
+        "manufacturer": "Colt",
+        "caliber": "5.56×45mm NATO",
+        "action": "Gas-operated, rotating bolt",
+        "weightKg": 3.4,
+        "barrelLengthMm": 508,
+        "effectiveRangeM": 550,
+        "fireModes": [
+            "Semi-Automatic",
+            "Burst",
+            "Automatic"
+        ],
+        "magazineCapacity": [
+            20,
+            30
+        ],
+        "designedBy": "Eugene Stoner",
+        "usedBy": [
+            "Military"
+        ],
+        "variants": [
+            "M16A1",
+            "M16A4"
+        ],
+        "image": "./src/assets/m16.png"
+    },
+    {
+        "id": 10,
+        "name": "FN SCAR-L",
+        "type": "Assault Rifle",
+        "typeId": "ar",
+        "shortDescription": "A modular assault rifle for special operations.",
+        "detailedDescription": "The FN SCAR-L was developed for special operations forces and is recognized for modularity, reliability, and adaptability in modern combat environments.",
+        "year": 2004,
+        "country": "Belgium",
+        "manufacturer": "FN Herstal",
+        "caliber": "5.56×45mm NATO",
+        "action": "Gas-operated",
+        "weightKg": 3.3,
+        "barrelLengthMm": 360,
+        "effectiveRangeM": 500,
+        "fireModes": [
+            "Semi-Automatic",
+            "Automatic"
+        ],
+        "magazineCapacity": [
+            30
+        ],
+        "designedBy": "FN Herstal",
+        "usedBy": [
+            "Military"
+        ],
+        "variants": [
+            "SCAR-H"
+        ],
+        "image": "./src/assets/scarl.png"
+    },
+    {
+        "id": 11,
+        "name": "Steyr AUG",
+        "type": "Assault Rifle",
+        "typeId": "ar",
+        "shortDescription": "A compact Austrian bullpup rifle.",
+        "detailedDescription": "The Steyr AUG became famous for its futuristic bullpup layout and integrated optic system, allowing compact dimensions without sacrificing barrel length.",
+        "year": 1977,
+        "country": "Austria",
+        "manufacturer": "Steyr Arms",
+        "caliber": "5.56×45mm NATO",
+        "action": "Gas-operated",
+        "weightKg": 3.6,
+        "barrelLengthMm": 508,
+        "effectiveRangeM": 500,
+        "fireModes": [
+            "Semi-Automatic",
+            "Automatic"
+        ],
+        "magazineCapacity": [
+            30,
+            42
+        ],
+        "designedBy": "Horst Wesp",
+        "usedBy": [
+            "Military"
+        ],
+        "variants": [
+            "AUG A1",
+            "AUG A3"
+        ],
+        "image": "./src/assets/aug.png"
+    },
+    {
+        "id": 12,
+        "name": "Remington 870",
+        "type": "Shotgun",
+        "typeId": "shotgun",
+        "shortDescription": "A versatile American pump-action shotgun.",
+        "detailedDescription": "The Remington 870 is one of the most successful pump-action shotguns ever made. It is used for hunting, home defense, and police applications.",
+        "year": 1950,
+        "country": "United States",
+        "manufacturer": "Remington",
+        "caliber": "12 Gauge",
+        "action": "Pump-action",
+        "weightKg": 3.2,
+        "barrelLengthMm": 470,
+        "effectiveRangeM": 40,
+        "fireModes": [
+            "Pump-Action"
+        ],
+        "magazineCapacity": [
+            6
+        ],
+        "designedBy": "L. Ray Crittendon",
+        "usedBy": [
+            "Police",
+            "Civilian"
+        ],
+        "variants": [
+            "870 Express"
+        ],
+        "image": "./src/assets/remington.png"
+    },
+    {
+        "id": 13,
+        "name": "SPAS-12",
+        "type": "Shotgun",
+        "typeId": "shotgun",
+        "shortDescription": "A dual-mode Italian combat shotgun.",
+        "detailedDescription": "The SPAS-12 is a combat shotgun capable of operating in both semi-automatic and pump-action modes, making it adaptable for various ammunition types.",
+        "year": 1979,
+        "country": "Italy",
+        "manufacturer": "Franchi",
+        "caliber": "12 Gauge",
+        "action": "Pump-action / Semi-automatic",
+        "weightKg": 4.4,
+        "barrelLengthMm": 546,
+        "effectiveRangeM": 40,
+        "fireModes": [
+            "Pump-Action",
+            "Semi-Automatic"
+        ],
+        "magazineCapacity": [
+            8
+        ],
+        "designedBy": "Luigi Franchi",
+        "usedBy": [
+            "Military",
+            "Police"
+        ],
+        "variants": [
+            "SPAS-15"
+        ],
+        "image": "./src/assets/spas12.png"
+    },
+    {
+        "id": 14,
+        "name": "Mossberg 500",
+        "type": "Shotgun",
+        "typeId": "shotgun",
+        "shortDescription": "A durable and affordable American shotgun.",
+        "detailedDescription": "The Mossberg 500 is a highly popular pump-action shotgun known for reliability and versatility in hunting and law enforcement roles.",
+        "year": 1960,
+        "country": "United States",
+        "manufacturer": "Mossberg",
+        "caliber": "12 Gauge",
+        "action": "Pump-action",
+        "weightKg": 3.4,
+        "barrelLengthMm": 510,
+        "effectiveRangeM": 40,
+        "fireModes": [
+            "Pump-Action"
+        ],
+        "magazineCapacity": [
+            5,
+            8
+        ],
+        "designedBy": "Carl Benson",
+        "usedBy": [
+            "Police",
+            "Civilian"
+        ],
+        "variants": [
+            "590A1"
+        ],
+        "image": "./src/assets/mossberg.png"
+    },
+    {
+        "id": 15,
+        "name": "MP5",
+        "type": "Submachine Gun",
+        "typeId": "smg",
+        "shortDescription": "A compact German tactical submachine gun.",
+        "detailedDescription": "The MP5 became internationally recognized for use by special forces and police tactical units due to its reliability and controllable recoil.",
+        "year": 1966,
+        "country": "Germany",
+        "manufacturer": "Heckler & Koch",
+        "caliber": "9×19mm",
+        "action": "Roller-delayed blowback",
+        "weightKg": 2.5,
+        "barrelLengthMm": 225,
+        "effectiveRangeM": 200,
+        "fireModes": [
+            "Semi-Automatic",
+            "Burst",
+            "Automatic"
+        ],
+        "magazineCapacity": [
+            15,
+            30
+        ],
+        "designedBy": "Heckler & Koch",
+        "usedBy": [
+            "Military",
+            "Police"
+        ],
+        "variants": [
+            "MP5K",
+            "MP5SD"
+        ],
+        "image": "./src/assets/mp5.png"
+    },
+    {
+        "id": 16,
+        "name": "Uzi",
+        "type": "Submachine Gun",
+        "typeId": "smg",
+        "shortDescription": "A compact Israeli submachine gun.",
+        "detailedDescription": "The Uzi became famous for portability and simplicity. Its compact design and reliability made it widely used around the world.",
+        "year": 1950,
+        "country": "Israel",
+        "manufacturer": "Israel Military Industries",
+        "caliber": "9×19mm",
+        "action": "Blowback",
+        "weightKg": 3.5,
+        "barrelLengthMm": 260,
+        "effectiveRangeM": 200,
+        "fireModes": [
+            "Semi-Automatic",
+            "Automatic"
+        ],
+        "magazineCapacity": [
+            25,
+            32
+        ],
+        "designedBy": "Uziel Gal",
+        "usedBy": [
+            "Military",
+            "Police"
+        ],
+        "variants": [
+            "Mini Uzi",
+            "Micro Uzi"
+        ],
+        "image": "./src/assets/uzi.png"
+    },
+    {
+        "id": 17,
+        "name": "P90",
+        "type": "Submachine Gun",
+        "shortDescription": "A futuristic Belgian personal defense weapon.",
+        "detailedDescription": "The FN P90 is known for its compact bullpup design and top-mounted magazine. It was developed for military vehicle crews and support personnel.",
+        "year": 1990,
+        "country": "Belgium",
+        "manufacturer": "FN Herstal",
+        "caliber": "5.7×28mm",
+        "action": "Blowback",
+        "weightKg": 2.6,
+        "barrelLengthMm": 263,
+        "effectiveRangeM": 200,
+        "fireModes": [
+            "Semi-Automatic",
+            "Automatic"
+        ],
+        "magazineCapacity": [
+            50
+        ],
+        "designedBy": "FN Herstal",
+        "usedBy": [
+            "Military",
+            "Police"
+        ],
+        "variants": [
+            "PS90"
+        ],
+        "image": "./src/assets/p90.png"
+    },
+    {
+        "id": 18,
+        "name": "Barrett M82",
+        "type": "Sniper Rifle",
+        "typeId": "sniper",
+        "shortDescription": "A powerful anti-materiel sniper rifle.",
+        "detailedDescription": "The Barrett M82 is a large-caliber sniper rifle chambered in .50 BMG. It is designed for long-range precision and anti-materiel roles.",
+        "year": 1982,
+        "country": "United States",
+        "manufacturer": "Barrett Firearms",
+        "caliber": ".50 BMG",
+        "action": "Recoil-operated, semi-automatic",
+        "weightKg": 13.5,
+        "barrelLengthMm": 737,
+        "effectiveRangeM": 1800,
+        "fireModes": [
+            "Semi-Automatic"
+        ],
+        "magazineCapacity": [
+            10
+        ],
+        "designedBy": "Ronnie Barrett",
+        "usedBy": [
+            "Military"
+        ],
+        "variants": [
+            "M107"
+        ],
+        "image": "./src/assets/barrett.png"
+    },
+    {
+        "id": 19,
+        "name": "Accuracy International AWM",
+        "type": "Sniper Rifle",
+        "typeId": "sniper",
+        "shortDescription": "A British long-range precision sniper rifle.",
+        "detailedDescription": "The Accuracy International AWM is a bolt-action sniper rifle designed for extreme precision in harsh environments and long-range operations.",
+        "year": 1996,
+        "country": "United Kingdom",
+        "manufacturer": "Accuracy International",
+        "caliber": ".338 Lapua Magnum",
+        "action": "Bolt-action",
+        "weightKg": 6.5,
+        "barrelLengthMm": 686,
+        "effectiveRangeM": 1500,
+        "fireModes": [
+            "Single Shot"
+        ],
+        "magazineCapacity": [
+            5
+        ],
+        "designedBy": "Accuracy International",
+        "usedBy": [
+            "Military"
+        ],
+        "variants": [
+            "AWM-F"
+        ],
+        "image": "./src/assets/awm.png"
+    },
+    {
+        "id": 20,
+        "name": "Dragunov SVD",
+        "type": "Sniper Rifle",
+        "typeId": "sniper",
+        "shortDescription": "A Soviet semi-automatic designated marksman rifle.",
+        "detailedDescription": "The Dragunov SVD was developed for Soviet infantry support roles and became famous for combining semi-automatic fire with long-range precision capability.",
+        "year": 1963,
+        "country": "Soviet Union",
+        "manufacturer": "Izhmash",
+        "caliber": "7.62×54mmR",
+        "action": "Gas-operated",
+        "weightKg": 4.3,
+        "barrelLengthMm": 620,
+        "effectiveRangeM": 800,
+        "fireModes": [
+            "Semi-Automatic"
+        ],
+        "magazineCapacity": [
+            10
+        ],
+        "designedBy": "Yevgeny Dragunov",
+        "usedBy": [
+            "Military"
+        ],
+        "variants": [
+            "SVDS"
+        ],
+        "image": "./src/assets/svd.png"
+    }
+]

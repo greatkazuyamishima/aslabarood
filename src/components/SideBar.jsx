@@ -3,11 +3,13 @@ import { NavLink } from 'react-router-dom'
 export default function SideBar() {
   const categories = [
     { name: 'HOME', path: '/' },
-    { name: 'PISTOLS', path: '/pistols' },
+    { name: 'PISTOLS', path: '/pistol' },
+    { name: 'REVOLVER', path: '/revolver'},    
     { name: 'ASSAULT RIFLES', path: '/ar' },
-    { name: 'SHOTGUNS', path: '/shotguns' },
-    { name: 'EXPLOSIVES', path: '/explosives' },
-
+    { name: 'SHOTGUNS', path: '/shotgun' },
+    { name: 'SUB MACHINE GUN', path: '/smg' },
+    { name: 'SNIPER RIFLES', path: '/sniper' },
+    { name: 'EXPLOSIVES', path: '/explosive' },
   ]
   return (
     <div className='h-dvh bg-[#0d1117] border-r border-[#ff6a1a37] pt-8 sticky top-0 min-w-60'>
