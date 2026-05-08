@@ -13,13 +13,14 @@ export default function SideBar() {
   ]
   return (
     <div className='h-dvh bg-[#0d1117] border-r border-[#ff6a1a37] pt-8 sticky top-0 min-w-60'>
-      <p className='text-[#FF6A1A] text-3xl font-bold tracking-wide px-6 mb-10 font-orbitron'>ASLA<br/>BAROOD</p>
+      <p className='text-[#FF6A1A] text-3xl font-bold tracking-wide px-6 mb-10 font-orbitron drop-shadow-[0_0_12px_rgba(255,106,26,0.75)]'>ASLA<br/>BAROOD</p>
 
       <p className='text-[#FF6A1A] text-xs tracking-[2px] mb-7 px-6'>CATEGORIES</p>
 
       <div className='flex flex-col gap-2'>
         {categories.map((category) => (
           <NavLink
+            key={category.name}
             to={category.path}
             className={({ isActive }) =>
               `px-6 py-3 text-sm tracking-[1.5px] transition-colors ${
