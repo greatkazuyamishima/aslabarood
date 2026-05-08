@@ -523,6 +523,7 @@
         "id": 17,
         "name": "P90",
         "type": "Submachine Gun",
+        "typeId": "smg",
         "shortDescription": "A futuristic Belgian personal defense weapon.",
         "detailedDescription": "The FN P90 is known for its compact bullpup design and top-mounted magazine. It was developed for military vehicle crews and support personnel.",
         "year": 1990,
@@ -639,5 +640,101 @@
             "SVDS"
         ],
         "image": "/images/svd.png"
+    },
+    {
+        "id": 21,
+        "name": "TNT",
+        "type": "Explosive",
+        "typeId": "explosive",
+        "shortDescription": "A widely known military explosive compound.",
+        "detailedDescription": "Trinitrotoluene, commonly known as TNT, is a chemical explosive compound historically used in military munitions and industrial blasting applications. It became widely adopted because of its relative stability during transport and handling compared to earlier explosive materials. TNT has been used in artillery shells, demolition charges, and mining operations throughout the 20th century.",
+        "year": 1863,
+        "country": "Germany",
+        "manufacturer": "Various",
+        "classification": "High Explosive",
+        "usage": [
+            "Military",
+            "Industrial"
+        ],
+        "physicalState": "Solid",
+        "hazardLevel": "High",
+        "designedBy": "Julius Wilbrand",
+        "variants": [
+            "Cast TNT",
+            "Flake TNT"
+        ],
+        "image": "/images/tnt.png"
+    },
+    {
+        "id": 22,
+        "name": "C-4",
+        "type": "Explosive",
+        "typeId": "explosive",
+        "shortDescription": "A military plastic explosive known for stability and moldability.",
+        "detailedDescription": "C-4 is a plastic explosive composition commonly used by military engineering units for demolition and breaching operations. It is valued for its stability, resistance to accidental detonation, and ability to be molded into different shapes. Due to its controlled military applications, C-4 became one of the most recognized modern explosive compounds.",
+        "year": 1956,
+        "country": "United States",
+        "manufacturer": "Military Production",
+        "classification": "Plastic Explosive",
+        "usage": [
+            "Military"
+        ],
+        "physicalState": "Putty-like Solid",
+        "hazardLevel": "High",
+        "designedBy": "U.S. Military Research",
+        "variants": [
+            "Composition C-3",
+            "Composition C-4"
+        ],
+        "image": "/images/c4.png"
+    },
+    {
+        "id": 23,
+        "name": "Dynamite",
+        "type": "Explosive",
+        "typeId": "explosive",
+        "shortDescription": "An industrial explosive invented for mining and construction.",
+        "detailedDescription": "Dynamite was invented by Alfred Nobel in the 19th century to make nitroglycerin safer to handle. It revolutionized mining, tunneling, railway construction, and demolition work by providing a more practical explosive for industrial applications. Dynamite played a major role in large-scale infrastructure projects around the world.",
+        "year": 1867,
+        "country": "Sweden",
+        "manufacturer": "Various",
+        "classification": "Industrial Explosive",
+        "usage": [
+            "Mining",
+            "Construction",
+            "Demolition"
+        ],
+        "physicalState": "Solid",
+        "hazardLevel": "High",
+        "designedBy": "Alfred Nobel",
+        "variants": [
+            "Gelignite",
+            "Ammonia Dynamite"
+        ],
+        "image": "/images/dynamite.png"
+    },
+    {
+        "id": 24,
+        "name": "Semtex",
+        "type": "Explosive",
+        "typeId": "explosive",
+        "shortDescription": "A malleable plastic explosive developed in Eastern Europe.",
+        "detailedDescription": "Semtex is a plastic explosive developed in Czechoslovakia during the 1960s. It became known for flexibility, water resistance, and stability under various environmental conditions. It has historically been used in military engineering and controlled demolition applications.",
+        "year": 1964,
+        "country": "Czechoslovakia",
+        "manufacturer": "Synthesia",
+        "classification": "Plastic Explosive",
+        "usage": [
+            "Military",
+            "Demolition"
+        ],
+        "physicalState": "Malleable Solid",
+        "hazardLevel": "High",
+        "designedBy": "Stanislav Brebera",
+        "variants": [
+            "Semtex 1A",
+            "Semtex H"
+        ],
+        "image": "/images/semtex.png"
     }
 ]
