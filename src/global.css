@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Share+Tech+Mono&display=swap');
+@import "tailwindcss";
+
+@theme {
+	--font-orbitron: "Orbitron", sans-serif;
+	--font-share-tech: "Share Tech Mono", monospace;
+}
+
+body {
+    font-family: 'Share Tech Mono', monospace;
+}
