@@ -32,7 +32,7 @@
             "Glock 19",
             "Glock 34"
         ],
-        "image": "./src/assets/glock17.png"
+        "image": "/images/glock17.png"
     },
     {
         "id": 2,
@@ -65,7 +65,7 @@
             "M1911A1",
             "Commander"
         ],
-        "image": "./src/assets/m1911.png"
+        "image": "/images/m1911.png"
     },
     {
         "id": 3,
@@ -98,7 +98,7 @@
             "M9",
             "92A1"
         ],
-        "image": "./src/assets/beretta.png"
+        "image": "/images/beretta.png"
     },
     {
         "id": 4,
@@ -129,7 +129,7 @@
             "Mark I",
             "Mark XIX"
         ],
-        "image": "./src/assets/deserteagle.png"
+        "image": "/images/deserteagle.png"
     },
     {
         "id": 5,
@@ -160,7 +160,7 @@
         "variants": [
             "Model 629"
         ],
-        "image": "./src/assets/model29.png"
+        "image": "/images/model29.png"
     },
     {
         "id": 6,
@@ -191,7 +191,7 @@
         "variants": [
             "Python Elite"
         ],
-        "image": "./src/assets/coltpython.png"
+        "image": "/images/coltpython.png"
     },
     {
         "id": 7,
@@ -221,7 +221,7 @@
         "variants": [
             "Suppressed Nagant"
         ],
-        "image": "./src/assets/nagant1895.png"
+        "image": "/images/nagant1895.png"
     },
     {
         "id": 8,
@@ -255,7 +255,7 @@
             "AKM",
             "AK-74"
         ],
-        "image": "./src/assets/ak47.png"
+        "image": "/images/ak47.png"
     },
     {
         "id": 9,
@@ -289,7 +289,7 @@
             "M16A1",
             "M16A4"
         ],
-        "image": "./src/assets/m16.png"
+        "image": "/images/m16.png"
     },
     {
         "id": 10,
@@ -320,7 +320,7 @@
         "variants": [
             "SCAR-H"
         ],
-        "image": "./src/assets/scarl.png"
+        "image": "/images/scarl.png"
     },
     {
         "id": 11,
@@ -353,7 +353,7 @@
             "AUG A1",
             "AUG A3"
         ],
-        "image": "./src/assets/aug.png"
+        "image": "/images/aug.png"
     },
     {
         "id": 12,
@@ -384,7 +384,7 @@
         "variants": [
             "870 Express"
         ],
-        "image": "./src/assets/remington.png"
+        "image": "/images/remington.png"
     },
     {
         "id": 13,
@@ -416,7 +416,7 @@
         "variants": [
             "SPAS-15"
         ],
-        "image": "./src/assets/spas12.png"
+        "image": "/images/spas12.png"
     },
     {
         "id": 14,
@@ -448,7 +448,7 @@
         "variants": [
             "590A1"
         ],
-        "image": "./src/assets/mossberg.png"
+        "image": "/images/mossberg.png"
     },
     {
         "id": 15,
@@ -483,7 +483,7 @@
             "MP5K",
             "MP5SD"
         ],
-        "image": "./src/assets/mp5.png"
+        "image": "/images/mp5.png"
     },
     {
         "id": 16,
@@ -517,7 +517,7 @@
             "Mini Uzi",
             "Micro Uzi"
         ],
-        "image": "./src/assets/uzi.png"
+        "image": "/images/uzi.png"
     },
     {
         "id": 17,
@@ -548,7 +548,7 @@
         "variants": [
             "PS90"
         ],
-        "image": "./src/assets/p90.png"
+        "image": "/images/p90.png"
     },
     {
         "id": 18,
@@ -578,7 +578,7 @@
         "variants": [
             "M107"
         ],
-        "image": "./src/assets/barrett.png"
+        "image": "/images/barrett.png"
     },
     {
         "id": 19,
@@ -608,7 +608,7 @@
         "variants": [
             "AWM-F"
         ],
-        "image": "./src/assets/awm.png"
+        "image": "/images/awm.png"
     },
     {
         "id": 20,
@@ -638,6 +638,6 @@
         "variants": [
             "SVDS"
         ],
-        "image": "./src/assets/svd.png"
+        "image": "/images/svd.png"
     }
 ]
